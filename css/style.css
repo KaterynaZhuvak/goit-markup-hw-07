@@ -1024,6 +1024,13 @@ img {
     fill: var(--main-color);
   }
 
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
   .list-menu {
     margin-bottom: 284px;
   }
@@ -1047,10 +1054,6 @@ img {
 
   .contact-item-menu:not(:last-child) {
     margin-bottom: 40px;
-  }
-
-  .contacts-list-menu {
-    margin-bottom: 48px;
   }
 
   .contact-tel-menu {
@@ -1137,7 +1140,7 @@ img {
   }
 
   .hero {
-    min-width: 1158px;
+    max-width: 1140px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
