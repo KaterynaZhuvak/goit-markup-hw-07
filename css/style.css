@@ -147,7 +147,6 @@ img {
     ),
     url(../images/bg-tell.jpg);
   background-size: cover;
-  width: 428px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -585,6 +584,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .modal-title {
   font-style: normal;
   font-weight: 500;
@@ -868,7 +868,6 @@ img {
   }
 
   .hero {
-    width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1138,7 +1137,6 @@ img {
   }
 
   .hero {
-    width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
