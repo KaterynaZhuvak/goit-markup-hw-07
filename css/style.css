@@ -143,6 +143,7 @@ img {
 
 .hero {
   background-color: var(--main-color);
+  min-width: 428px;
   margin-right: auto;
   margin-left: auto;
   padding: 112px 0;
@@ -237,7 +238,6 @@ img {
 .our-workers {
   background-color: var(--pale-accent-color);
   padding: 96px 0;
-  min-width: 428px;
 }
 
 .worker-main-title {
