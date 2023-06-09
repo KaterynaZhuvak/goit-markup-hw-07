@@ -865,6 +865,7 @@ img {
   .menu-icons-list {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 56px;
     row-gap: 15px;
   }
@@ -883,13 +884,21 @@ img {
     fill: var(--pale-accent-color);
   }
 
-    .footer-icon-title {
-      text-align: center;
-    }
+  .footer-icon-title {
+    text-align: center;
+  }
 
-    .contact-footer-container {
-      width: 100%;
-    }
+  .contact-footer-container {
+    width: 100%;
+  }
+
+  .modal {
+    width: 95%;
+    max-width: 392px;
+    height: 95%;
+    max-height: 584px;
+    overflow: scroll;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
